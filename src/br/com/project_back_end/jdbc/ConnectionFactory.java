@@ -11,7 +11,7 @@ public class ConnectionFactory {
 		
 		try {
 			
-			return DriverManager.getConnection("jdbc:mysql://localhost/project_back_end", "root", "12365902");
+			return DriverManager.getConnection("jdbc:mysql://localhost/project_back_end", "user", "password");
 			
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
